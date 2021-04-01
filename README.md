@@ -1,25 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Test API
 
-Things you may want to cover:
+#### How to setup project
 
-* Ruby version
+- Install ruby 2.7.2 (user rbenv or rvm) - https://github.com/rbenv/rbenv
+- Install bundler gem by executing `gem install bundler`
 
-* System dependencies
+#### How to run project
 
-* Configuration
+- Run Postgress `service postgresql start`
+- Install gems by executing `bundle install`
+- Run migrations `bundle exec rake db:migrate`
+- Run Rails `rails s`
 
-* Database creation
+### Postman collection
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# api_test
+Latest postman collection - https://www.getpostman.com/collections/8a4876ef6f1a814d94c2

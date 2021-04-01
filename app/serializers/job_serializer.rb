@@ -1,6 +1,10 @@
+# frozen_string_literal: true
+
 class JobSerializer < ActiveModel::Serializer
-  attributes :id, :title, :salary, :languages, :shifts
-  def shifts
-    object.shifts.to_json(only: %i[start_date finish_date])
+  attributes :title, :final_salary, :languages
+
+  def final_salary
+    hours = ((object.shifts.count ',') + 1) * 8
+    object.salary * hours
   end
 end
