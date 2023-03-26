@@ -1,10 +1,11 @@
 # README
 
-Test API
+This API is a system for the work of the labor exchange.
+The user can create vacancies, listing the necessary requirements, and respond to them, as well as delete or expose them.
 
 #### How to setup project
 
-- Install ruby 2.7.2 (user rbenv or rvm) - https://github.com/rbenv/rbenv
+- Install ruby 2.7.2 (using rbenv or rvm) - https://github.com/rbenv/rbenv
 - Install bundler gem by executing `gem install bundler`
 
 #### How to run project
